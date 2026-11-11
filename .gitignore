@@ -1,0 +1,40 @@
+# зависимости
+/node_modules
+.pnp
+.pnp.*
+
+# сборка Next.js
+/.next/
+/out/
+/build
+next-env.d.ts
+*.tsbuildinfo
+
+# окружение и секреты
+.env
+.env.*
+!.env.example
+
+# база данных и загруженные файлы
+prisma/dev.db
+prisma/dev.db-journal
+prisma/dev.db-wal
+prisma/dev.db-shm
+var/uploads/*
+!var/uploads/.gitkeep
+
+# логи
+*.log
+npm-debug.log*
+
+# тесты
+/coverage
+
+# ОС и редакторы
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
